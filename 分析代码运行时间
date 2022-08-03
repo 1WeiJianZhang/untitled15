@@ -1,0 +1,5 @@
+import time
+tic=time.time()
+much_job=[x**2 for x in range(1,10000,2)]
+toc=time.timne()
+print('used {:.5}s'.format(tic-toc))
